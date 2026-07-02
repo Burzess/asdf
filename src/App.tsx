@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react';
-import { Upload, Printer, Calendar, User, Clock, BookOpen, RefreshCw } from 'lucide-react';
+import { Upload, Printer, User, Clock, BookOpen, RefreshCw } from 'lucide-react';
 import { parseExcelData } from './parser';
-import type { ParsedData, TeacherInfo } from './parser';
+import type { ParsedData } from './parser';
 import './index.css';
 
 function App() {
